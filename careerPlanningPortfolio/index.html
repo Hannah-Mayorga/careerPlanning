@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <title>Furever Friends</title>
+</head>
+
+<body>
+    <!--Navigation Links. 
+    Home & Logo link to main hero
+    About link to "Our Mission"
+    Shop link to "Our Shop"
+    Contact link to footer-->
+    <nav>
+        <div class="logo">FUREVER FRIENDS</div>
+        <div class="links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#shop">SHOP</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
+    <!--HOME-->
+    <section id="home" class="full hero">
+        <!--Adoption Quiz Content Box-->
+        <div class="container-box">
+            <div class="homeTitle">FIND YOUR FUREVER FRIEND</div>
+            <hr>
+            <p class="smallTxt">I'm looking for a...</p>
+            <div class="buttons-flex">
+                <button class="button dogBtn">DOG</button>
+                <button class="button catBtn">CAT</button>
+            </div>
+            <p class="smallTxt">Near...</p>
+            <input type="text" id="zipcode" name="zipcode" placeholder="Zipcode..." />
+            <div class="buttons-flex">
+             <button class="button matchBtn">MATCH</button>   
+            </div>
+        </div>
+    </section>
+    <!--ABOUT-->
+    <section id="about" class="full about">
+        <h1 class="header">OUR MISSION</h1>
+        <!--Flex Mission Statements-->
+        <div class="about-flex">
+            <!--Statement 1-->
+            <div class="statements">
+                <div class="icon1"></div>
+                <h3 class="statementHeader">Match Making</h3>
+                <p class="statementDesc"> We match you to
+                    your Furever Friend
+                    based on our in-depth
+                    personality quiz!
+                </p>
+            </div>
+            <!--Statement 2-->
+            <div class="statements">
+                <div class="icon2"></div>
+                <h3 class="statementHeader">Healthy Alternatives</h3>
+                <p class="statementDesc"> We guarantee our products
+                    are environmentally
+                    friendly & contain organic
+                    ingredients safe for your pet.
+                </p>
+            </div>
+            <!--Statement 3-->
+            <div class="statements">
+                <div class="icon3"></div>
+                <h3 class="statementHeader">Love Longer</h3>
+                <p class="statementDesc"> Keep your Furever Friend
+                    happy and healthier
+                    by giving them the best
+                    chance possible.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--SHOP-->
+    <section id="shop" class="full shop">
+        <h1 class="header">OUR SHOP</h1>
+        <!--Flex Shop Sample Items-->
+        <div class="shop-flex">
+            <!--Item 1-->
+            <div class="shopItem">
+                <div class="item1"></div>
+                <p class="price">$3.99</p>
+            </div>
+            <!--Item 2-->
+            <div class="shopItem">
+                <div class="item2"></div>
+                <p class="price">$2.99</p>
+            </div>
+            <!--Item 3-->
+            <div class="shopItem">
+                <div class="item3"></div>
+                <p class="price">$6.99</p>
+            </div>
+            <!--Item 4-->
+            <div class="shopItem">
+                <div class="item4"></div>
+                <p class="price">$4.99</p>
+            </div>
+        </div>
+    </section>
+    <!--STORY-->
+    <section id="story" class="full story">
+        <h1 class="header">HEAR OUR STORIES</h1>
+        <!--Img float right w/ text box and header-->
+        <h2 class="storyHeader">Jason Vorhees</h2>
+        <p class="storyDesc">
+            <img src="./images/man-and-dog-small.jpg"
+                style="width:370px;height:370px;margin-left:15px;float:right;border-radius:100%;border:5px solid #30A48C;"
+                alt="">
+            "I took the quiz not expecting to
+            find the right pet...but I've never
+            been more happy to have Kuma
+            in my life. I was able to find him
+            and get him on the right diet all in
+            the same place."
+        </p>
+    </section>
+    <!--CONTACT-->
+    <section id="contact" class="full contact">
+        <h1 class="header">CONTACT</h1>
+        <!--Social Icons Flex-->
+        <div class="icon-flex">
+            <div class="facebook"></div>
+            <div class="instagram"></div>
+            <div class="twitter"></div>
+            <div class="tiktok"></div>
+            <div class="email"></div>
+        </div>
+        <!--Contact Info-->
+        <div class="contact-flex">
+            <div>
+                <h4 class="contactHeader">Phone Number</h4>
+                <p class="contactDesc">317.123.4567</p>
+            </div>
+            <div>
+                <h4 class="contactHeader">Hours of Operation</h4>
+                <p class="contactDesc">Mon - Fri: 9am - 5pm</p>
+                <p class="contactDesc">Sat - Sun: 12pm - 4pm</p>
+            </div>
+            <div>
+                <h4 class="contactHeader">Address</h4>
+                <p class="contactDesc">1234 Animal Help Way</p>
+                <p class="contactDesc">Indianapolis, IN 46229</p>
+            </div>
+        </div>
+        <!--Copyright Info-->
+        <div class="copyright">
+            This website was made for educational purposes only.
+        </div>
+    </section>
+</body>
+
+</html>

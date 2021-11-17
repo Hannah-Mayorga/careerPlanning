@@ -1,0 +1,349 @@
+/* base css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: minion-pro, serif;
+    color: #545454;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 16px;
+}
+
+/* nav css */
+nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    height: 22px;
+    margin-left: 60px;
+}
+
+.links a {
+    color: #30A48C;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: medium;
+    margin-right: 60px;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.logo {
+    height: 67px;
+    width: auto;
+    margin-left: 60px;
+    font-size: 50px;
+    color: #785580;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+/* general css, used for various things */
+.full {
+    min-height: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    padding: 80px 20px 20px 20px;
+}
+
+.header {
+    font-size: 80px;
+    color: #30A48C;
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+/* hero/home */
+.hero {
+    height: 800px;
+    background: url(../images/heroBKg2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.container-box {
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: black 3px 6px 16px;
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    margin: 300px;
+}
+.homeTitle {
+    font-size: 40px;
+    color: #30A48C;
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+}
+hr {
+    width: 50%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.smallTxt {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  background-color: #30A48C;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.matchBtn {
+    background-color: #785580;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 26px;
+
+}
+.buttons-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+/* about */
+.about-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    /*  background-color: yellow; */
+}
+
+.statements {
+    color: #545454;
+    /* border: 3px black solid; */
+    text-align: center;
+}
+
+.statementHeader {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 60px;
+    color: #30A48C;
+}
+
+.statementDesc {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon1 {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/icon1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.icon2 {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/icon2.png) no-repeat center center;
+    background-size: cover;
+}
+
+.icon3 {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/icon3.png) no-repeat center center;
+    background-size: cover;
+}
+
+/* shop */
+.shop {
+    background-color: #F8FFFD;
+}
+
+.shop-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+
+.shopItem {
+    text-align: center;
+    color: #545454;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item1 {
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/item1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.item2 {
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/item2.png) no-repeat center center;
+    background-size: cover;
+}
+
+.item3 {
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/item3.png) no-repeat center center;
+    background-size: cover;
+}
+
+.item4 {
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/item4.png) no-repeat center center;
+    background-size: cover;
+}
+
+/* story */
+.storyHeader {
+    color: #30A48C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+
+.storyDesc {
+    color: #545454;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+/* contact */
+.contact {
+    background-color: #F8FFFD;
+}
+
+.icon-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+
+}
+
+.facebook {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/facebooklogo.png) no-repeat center center;
+    background-size: cover;
+}
+
+.instagram {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/instalogo.png) no-repeat center center;
+    background-size: cover;
+}
+
+.twitter {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/twitterlogo.png) no-repeat center center;
+    background-size: cover;
+}
+
+.tiktok {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/tiktoklogo.png) no-repeat center center;
+    background-size: cover;
+}
+
+.email {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/maillogo.png) no-repeat center center;
+    background-size: cover;
+}
+.copyright {
+    color: #545454;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.contactHeader {
+    color: #30A48C;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 50px;
+
+}
+.contact-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+.contactDesc {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
